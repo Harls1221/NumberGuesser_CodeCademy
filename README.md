@@ -1,2 +1,2 @@
 # NumberGuesser_CodeCademy
-Number Guesser game from Codecademy
+This is the Number Guesser game from the Full Stack Engineer path offered on Codecademy.
