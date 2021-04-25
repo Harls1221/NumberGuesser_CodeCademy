@@ -72,4 +72,4 @@ console.log(humanScore);
 updateScore('computer');
 console.log(computerScore);
 
-//END PROGRAM
+//END PROGRAM/
