@@ -20,11 +20,18 @@ Return true if the human player wins, and false if the computer player wins.
 
 */
 
-const compareGuesses = (humanGuess, computerGuess, targetGuess) => {
+const getAbsoluteDistance = (humanGuess, computerGuess, targetGuess) => {
     const humanDifference = Math.abs(targetGuess - humanGuess)
     const computerDifference = Math.abs(targetGuess - computerGuess)
     return humanDifference <= computerDifference;
+}
 
+//Checks to make sure user inputs only numbers 1-10
+
+const compareGuesses = (humanGuess)=>{
+    if(humanGuess > 10 || humanGuess < 1){
+        return alert("Please type in a number between 1 & 10! ")
+    }
 }
 
 
